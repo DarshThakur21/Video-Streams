@@ -101,7 +101,7 @@ function VideoUpload() {
     <div>
       <Toaster position="top-center" reverseOrder={false} />
       <Card className='flex flex-col items-center justify-center'>
-        <h2>Upload Video </h2>
+        <h2 className='text-center'>Upload Video </h2>
 
         <div>
           <form noValidate className='flex flex-col space-y-2' onSubmit={handleForm}>
@@ -136,7 +136,7 @@ function VideoUpload() {
               <label class="block ">
                 <span class="sr-only">Choose video </span>
                 <input
-                
+                 
                   name='file'
                   onChange={handleFileChange}
                   type="file" class="block rounded-full w-full text-sm text-slate-500
