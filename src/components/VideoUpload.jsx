@@ -70,8 +70,7 @@ function VideoUpload() {
       console.log(response);
       setMessage("file uploaded")
       setProgress(0);
- 
-      toast.success("File uploaded successfully!");
+      toast.success("File uploaded successfully!"+response.data.videoId);
 
 
       resetForm();
